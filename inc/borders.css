@@ -1,0 +1,99 @@
+/* border radius */
+
+.b-circle {
+  border-radius: 50%;
+}
+
+.b-rounded {
+  border-radius: 1rem;
+}
+
+/* border */
+
+.b-full {
+  border: solid 0.1rem;
+}
+
+.b-left {
+  border-left: solid 0.1rem;
+}
+
+.b-right {
+  border-right: solid 0.1rem;
+}
+
+.b-top {
+  border-top: solid 0.1rem;
+}
+
+.b-bottom {
+  border-bottom: solid 0.1rem;
+}
+
+.b-none {
+  border: none;
+}
+
+/* border size */
+
+.b-1 {
+  border-width: 0.2rem;
+}
+
+.b-2 {
+  border-width: 0.5rem;
+}
+
+/* border color */
+
+.b-white {
+  border-color: var(--white);
+}
+
+.b-light {
+  border-color: var(--light);
+}
+
+.b-lightgray {
+  border-color: var(--lightgray);
+}
+
+.b-gray {
+  border-color: var(--gray);
+}
+
+.b-darkgray {
+  border-color: var(--darkgray);
+}
+
+.b-dark {
+  border-color: var(--dark);
+}
+
+.b-black {
+  border-color: var(--black);
+}
+
+.b-success {
+  border-color: var(--success);
+}
+
+.b-warning {
+  border-color: var(--warning);
+}
+
+.b-danger {
+  border-color: var(--danger);
+}
+
+.b-main-light {
+  border-color: var(--main-light);
+}
+
+.b-main {
+  border-color: var(--main);
+}
+
+.b-main-dark {
+  border-color: var(--main-dark);
+}

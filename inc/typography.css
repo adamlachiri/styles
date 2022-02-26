@@ -1,0 +1,221 @@
+/* font family */
+
+.t-primary {
+  font-family: var(--primary);
+}
+
+.t-secondary {
+  font-family: var(--secondary);
+}
+
+/* text align mobile */
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-left {
+  text-align: left;
+}
+
+/* text align tablet */
+
+@media (min-width: 425px) {
+  .t-tablet-center {
+    text-align: center;
+  }
+
+  .t-tablet-right {
+    text-align: right;
+  }
+
+  .t-tablet-left {
+    text-align: left;
+  }
+}
+
+/* text align desktop */
+
+@media (min-width: 1024px) {
+  .t-desktop-center {
+    text-align: center;
+  }
+
+  .t-desktop-right {
+    text-align: right;
+  }
+
+  .t-desktop-left {
+    text-align: left;
+  }
+}
+
+/* text-decoration */
+
+.t-line-through {
+  text-decoration: line-through;
+}
+
+.t-underline {
+  text-decoration: underline;
+}
+
+.t-shadow {
+  text-shadow: 0 0 0.1rem black;
+}
+
+.t-dots {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* text transform */
+
+.t-lowercase {
+  text-transform: lowercase;
+}
+
+.t-capitalize {
+  text-transform: capitalize;
+}
+
+.t-uppercase {
+  text-transform: uppercase;
+}
+
+/* text colors */
+
+.t-white {
+  color: var(--white);
+}
+
+.t-light {
+  color: var(--light);
+}
+
+.t-lightgray {
+  color: var(--lightgray);
+}
+
+.t-gray {
+  color: var(--gray);
+}
+
+.t-darkgray {
+  color: var(--darkgray);
+}
+
+.t-dark {
+  color: var(--dark);
+}
+
+.t-black {
+  color: var(--black);
+}
+
+.t-success {
+  color: var(--success);
+}
+
+.t-warning {
+  color: var(--warning);
+}
+
+.t-danger {
+  color: var(--danger);
+}
+
+.t-info {
+  color: var(--info);
+}
+
+.t-main-light {
+  color: var(--main-light);
+}
+
+.t-main {
+  color: var(--main);
+}
+
+.t-main-dark {
+  color: var(--main-dark);
+}
+
+/* font styling */
+
+.t-italic {
+  font-style: italic;
+}
+
+/* font weight */
+
+.t-thin {
+  font-weight: 200;
+}
+
+.t-bold {
+  font-weight: 600;
+}
+
+/* font size */
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+
+.d4 {
+  font-size: 3.5rem;
+}
+
+.d3 {
+  font-size: 4.5rem;
+}
+
+.d2 {
+  font-size: 6rem;
+}
+
+.d1 {
+  font-size: 8rem;
+}
+
+/* list styles */
+
+.l-circle {
+  list-style-type: circle;
+}
+
+.l-square {
+  list-style-type: square;
+}

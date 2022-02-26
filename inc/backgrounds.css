@@ -1,0 +1,252 @@
+/* background */
+
+.bg-classic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+/* background position mobile */
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-top-right {
+  background-position: top right;
+}
+
+.bg-top-left {
+  background-position: top left;
+}
+
+.bg-bottom-right {
+  background-position: bottom right;
+}
+
+.bg-bottom-left {
+  background-position: bottom left;
+}
+
+.bg-center-top {
+  background-position: center top;
+}
+
+.bg-center-bottom {
+  background-position: center bottom;
+}
+
+.bg-center-right {
+  background-position: center right;
+}
+
+.bg-center-left {
+  background-position: center left;
+}
+
+/* background position tablet */
+
+@media (max-width: 425px) {
+  .bg-tablet-center {
+    background-position: center;
+  }
+
+  .bg-tablet-top {
+    background-position: top;
+  }
+
+  .bg-tablet-bottom {
+    background-position: bottom;
+  }
+
+  .bg-tablet-left {
+    background-position: left;
+  }
+
+  .bg-tablet-right {
+    background-position: right;
+  }
+}
+
+/* background position desktop */
+
+@media (max-width: 1024px) {
+  .bg-desktop-center {
+    background-position: center;
+  }
+
+  .bg-desktop-top {
+    background-position: top;
+  }
+
+  .bg-desktop-bottom {
+    background-position: bottom;
+  }
+
+  .bg-desktop-left {
+    background-position: left;
+  }
+
+  .bg-desktop-right {
+    background-position: right;
+  }
+}
+
+/* background size */
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+/* background color */
+
+.bg-white {
+  background: var(--white);
+}
+
+.bg-light {
+  background: var(--light);
+}
+
+.bg-lightgray {
+  background: var(--lightgray);
+}
+
+.bg-gray {
+  background: var(--gray);
+}
+
+.bg-darkgray {
+  background: var(--darkgray);
+}
+
+.bg-dark {
+  background: var(--dark);
+}
+
+.bg-black {
+  background: var(--black);
+}
+
+.bg-success {
+  background: var(--success);
+}
+
+.bg-warning {
+  background: var(--warning);
+}
+
+.bg-danger {
+  background: var(--danger);
+}
+
+.bg-info {
+  background: var(--info);
+}
+
+.bg-main-light {
+  background: var(--main-light);
+}
+
+.bg-main {
+  background: var(--main);
+}
+
+.bg-main-dark {
+  background: var(--main-dark);
+}
+
+/* background color hover */
+
+.h-bg-white:hover {
+  background: var(--white) !important;
+  cursor: pointer;
+}
+
+.h-bg-light:hover {
+  background: var(--light) !important;
+  cursor: pointer;
+}
+
+.h-bg-lightgray:hover {
+  background: var(--lightgray) !important;
+  cursor: pointer;
+}
+
+.h-bg-gray:hover {
+  background: var(--gray) !important;
+  cursor: pointer;
+}
+
+.h-bg-darkgray:hover {
+  background: var(--darkgray) !important;
+  cursor: pointer;
+}
+
+.h-bg-dark:hover {
+  background: var(--dark) !important;
+  cursor: pointer;
+}
+
+.h-bg-black:hover {
+  background: var(--black) !important;
+  cursor: pointer;
+}
+
+.h-bg-success:hover {
+  background: var(--success) !important;
+  cursor: pointer;
+}
+
+.h-bg-warning:hover {
+  background: var(--warning) !important;
+  cursor: pointer;
+}
+
+.h-bg-danger:hover {
+  background: var(--danger) !important;
+  cursor: pointer;
+}
+
+.h-bg-main-light:hover {
+  background: var(--main-light) !important;
+  cursor: pointer;
+}
+
+.h-bg-main:hover {
+  background: var(--main) !important;
+  cursor: pointer;
+}
+
+.h-bg-main-dark:hover {
+  background: var(--main-dark) !important;
+  cursor: pointer;
+}

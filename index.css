@@ -1,0 +1,111 @@
+/* font imports */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+/* css imports */
+@import "./inc/backgrounds.css";
+@import "./inc/borders.css";
+@import "./inc/boxes.css";
+@import "./inc/buttons.css";
+@import "./inc/defaults.css";
+@import "./inc/displays.css";
+@import "./inc/keyframes.css";
+@import "./inc/others.css";
+@import "./inc/positions.css";
+@import "./inc/spacing.css";
+@import "./inc/typography.css";
+
+/* css variables */
+
+:root {
+  /* standard colors */
+  --white: rgb(255, 255, 255);
+  --light: rgb(245, 245, 245);
+  --lightgray: rgb(220, 220, 220);
+  --gray: rgb(120, 120, 120);
+  --darkgray: rgb(80, 80, 80);
+  --dark: rgb(50, 50, 50);
+  --black: rgb(0, 0, 0);
+
+  /* common colors */
+  --success: #198754;
+  --warning: #ffc107;
+  --danger: #e76271;
+  --info: #0d6efd;
+
+  /* main colors */
+  --main-light: rgb(250, 250, 250);
+  --main: rgb(50, 50, 50);
+  --main-dark: rgb(230, 230, 230);
+
+  /* font sizes */
+  --font-size-mobile: 3vw;
+  --font-size-tablet: 14px;
+  --font-size-desktop: 14px;
+
+  /* font families */
+  --primary: "Poiret One", sans-serif;
+  --secondary: "Lato", sans-serif;
+
+  /* shapes */
+  --border-radius: 2rem;
+}
+
+/* body */
+
+body {
+  font-family: var(--secondary);
+  letter-spacing: 0.1rem;
+  overflow-x: hidden;
+  background: var(--light);
+  color: var(--dark);
+}
+
+/* btn */
+
+.btn {
+  font-family: var(--secondary);
+  border-radius: var(--border-radius);
+  text-transform: capitalize;
+  padding: 0.8rem 2rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  border-width: 0.1rem;
+  text-align: center;
+  transition: ease-out 0.3s;
+}
+
+/* inputs */
+
+input,
+textarea,
+select {
+  border-radius: 0rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: solid 0.1rem var(--gray);
+  color: inherit;
+  font-size: 14px;
+  background: transparent;
+}
+
+/* typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary);
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+p {
+  font-family: var(--secondary);
+  line-height: 2.2;
+  /* color: var(--light); */
+  font-size: 1.1rem;
+}

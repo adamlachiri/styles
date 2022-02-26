@@ -1,0 +1,128 @@
+/* box shadow */
+
+.b-shadow-none {
+  box-shadow: none !important;
+}
+
+.b-shadow {
+  box-shadow: 0 0.8rem 0.8rem var(--lightgray);
+}
+
+@media (max-width: 1024px) {
+  .b-shadow {
+    box-shadow: none;
+  }
+}
+
+/* box shadow hover */
+
+.h-shadow:hover {
+  box-shadow: 0 0.8rem 0.8rem var(--lightgray);
+  cursor: pointer;
+}
+
+/* cursor */
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.c-grab {
+  cursor: grab;
+}
+
+.c-grabbing {
+  cursor: grabbing;
+}
+
+/* opacity */
+
+.hidden {
+  opacity: 0;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}
+
+/* opacity hover */
+
+.h-opacity {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.h-opacity:hover {
+  opacity: 1 !important;
+}
+
+/* underline hover */
+
+.h-underline:hover {
+  text-decoration: underline !important;
+}
+
+/* overflow */
+
+.ov-hidden {
+  overflow: hidden;
+}
+
+.ov-y-hidden {
+  overflow-y: hidden;
+}
+
+.ov-x-hidden {
+  overflow-x: hidden;
+}
+
+/* saturation hover */
+
+.h-saturate {
+  filter: saturate(0);
+  transition: ease-out 0.3s;
+  cursor: pointer;
+}
+
+.h-saturate:hover {
+  filter: saturate(100%) !important;
+}
+
+/* scale hover */
+
+.h-scale {
+  transition: linear 0.3s;
+  cursor: pointer;
+}
+
+.h-scale:hover {
+  transform: scale(1.05) !important;
+}
+
+/* image */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.img-block {
+  display: block;
+  width: 100%;
+}
+
+/* shapes */
+
+.square::after {
+  content: "" !important;
+  display: block !important;
+  padding-top: 100% !important;
+}
